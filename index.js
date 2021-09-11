@@ -32,8 +32,8 @@ for(i=9; i<=17; i++){
 }
 
 function saveToLocalStorage(event) {
-    event.preventDefault()
-    console.log(event.target)
+    // event.preventDefault()
+    console.log(event.target.id)
     // localStorage.setItem('9AM', textareaEl.value);
     // localStorage.setItem('10AM', textarea.value);
     // localStorage.setItem('11AM', textarea.value);
